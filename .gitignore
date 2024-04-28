@@ -1,0 +1,6 @@
+data/*
+data/images/*
+data/captions/*
+
+!data/images/.gitkeep
+!data/captions/.gitkeep
