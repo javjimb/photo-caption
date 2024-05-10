@@ -4,5 +4,9 @@ data/*
 data/images/*
 data/captions/*
 
+dataset/*
+dataset/images/*
+dataset/captions/*
+
 !data/images/.gitkeep
 !data/captions/.gitkeep
