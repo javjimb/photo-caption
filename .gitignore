@@ -10,3 +10,6 @@ dataset/captions/*
 
 !data/images/.gitkeep
 !data/captions/.gitkeep
+
+saved_dataset/*
+.ipynb_checkpoints/*
