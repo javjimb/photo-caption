@@ -1,8 +1,11 @@
 .DS_Store
 .vscode/*
 
+models/*
+
 notebooks/logs/*
 notebooks/results/*
+notebooks/.ipynb_checkpoints/*
 
 data/*
 data/images/*
