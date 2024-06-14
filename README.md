@@ -14,4 +14,23 @@ Implement an image captioning system using transformer-based models like BERT or
 4. Develop skills in model selection, training, and evaluation for image captioning tasks, with a focus on fine-tuning pre-trained models for specific domains.
 5. Explore methods for deploying and integrating the captioning model into social media workflows for automatic caption generation.
 
+## Use Case and Motivation
+
+The primary use case for this project is to automate the process of generating captions for photos of my dogs on an [Instagram account](https://www.instagram.com/lol.a.chihuahua/). Each photo on this account features a unique caption, and this project aims to streamline that process.
+
+The workflow consists of two main steps: first, a dog detection model identifies which of my dogs is in the photo; second, a caption generation model creates a relevant caption based on the photo's content and the dog's characteristics.
+
+Once the caption is generated, the photo, along with the caption, can be automatically posted to Instagram. This automation simplifies the management of the Instagram account and ensures each post is accompanied by a personalized caption.
+
+The motivation behind this project is to document and share moments with my two rescued Chihuahuas in an organized and engaging way. By utilizing AI techniques, I can efficiently generate creative and descriptive captions that enhance the storytelling aspect of each photo. The purpose of this project is to document the memories and experiences made with my dogs. 
+
+## Project Development Notebooks
+
+Below are the Jupyter notebooks created during the development of this project, listed in the order they were made:
+
+1. [Training with Fast.ai](training-with-fast-ai.ipynb) - This notebook contains the steps and code for training a model using the Fast.ai library.
+
+2. [Instruction Tuning GPT-2 on Alpaca Dataset](instruction-tunning-gpt2-alpaca.ipynb) - This notebook details the process of fine-tuning the GPT-2 model on the Alpaca dataset.
+
 Stay tuned for more updates as the project progresses.
+
