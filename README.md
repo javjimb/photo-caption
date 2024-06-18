@@ -28,11 +28,11 @@ The motivation behind this project is to document and share moments with my two 
 
 Below are the Jupyter notebooks created during the development of this project, listed in the order they were made:
 
-1. [Training with Fast.ai](training-with-fast-ai.ipynb) - This notebook contains the steps and code for training a model using the Fast.ai library.
+1. [Training with Fast.ai](./notebooks/training-with-fast-ai.ipynb) - This notebook contains the steps and code for training a model using the Fast.ai library.
 
-2. [Instruction Tuning GPT-2 on Alpaca Dataset](instruction-tunning-gpt2-alpaca.ipynb) - This notebook details the process of fine-tuning the GPT-2 model on the Alpaca dataset.
+2. [Instruction Tuning GPT-2 on Alpaca Dataset](./notebooks/instruction-tunning-gpt2-alpaca.ipynb) - This notebook details the process of fine-tuning the GPT-2 model on the Alpaca dataset.
 
-3. [Fine-Tuning GPT-2 on Custom Dataset](fine-tuning-gpt2-on-custom-dataset.ipynb) - This notebook demonstrates the steps to fine-tune the GPT-2 model on a custom dataset.
+3. [Fine-Tuning GPT-2 on Custom Dataset](./notebooks/fine-tuning-gpt2-on-custom-dataset.ipynb) - This notebook demonstrates the steps to fine-tune the GPT-2 model on a custom dataset.
 
 Stay tuned for more updates as the project progresses.
 
