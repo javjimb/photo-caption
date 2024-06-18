@@ -32,5 +32,7 @@ Below are the Jupyter notebooks created during the development of this project, 
 
 2. [Instruction Tuning GPT-2 on Alpaca Dataset](instruction-tunning-gpt2-alpaca.ipynb) - This notebook details the process of fine-tuning the GPT-2 model on the Alpaca dataset.
 
+3. [Fine-Tuning GPT-2 on Custom Dataset](fine-tuning-gpt2-on-custom-dataset.ipynb) - This notebook demonstrates the steps to fine-tune the GPT-2 model on a custom dataset.
+
 Stay tuned for more updates as the project progresses.
 
