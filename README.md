@@ -34,5 +34,7 @@ Below are the Jupyter notebooks created during the development of this project, 
 
 3. [Fine-Tuning GPT-2 on Custom Dataset](./notebooks/fine-tuning-gpt2-on-custom-dataset.ipynb) - This notebook demonstrates the steps to fine-tune the GPT-2 model on a custom dataset.
 
+4. Creating an [API](./api/) that puts it all together - This API will take an image as input, detect the dog in the image, and generate a caption for the photo.
+
 Stay tuned for more updates as the project progresses.
 
