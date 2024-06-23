@@ -1,7 +1,12 @@
 .DS_Store
+.vscode/*
+__pycache__
+
+models/*
 
 notebooks/logs/*
 notebooks/results/*
+notebooks/.ipynb_checkpoints/*
 
 data/*
 data/images/*
