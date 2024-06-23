@@ -18,7 +18,7 @@ Implement an image captioning system using transformer-based models like BERT or
 
 The primary use case for this project is to automate the process of generating captions for photos of my dogs on an [Instagram account](https://www.instagram.com/lol.a.chihuahua/). Each photo on this account features a unique caption, and this project aims to streamline that process.
 
-The workflow consists of two main steps: first, a dog detection model identifies which of my dogs is in the photo; second, a caption generation model creates a relevant caption based on the photo's content and the dog's characteristics.
+The workflow consists of multiple steps: first, a dog detection model identifies which of my dogs is in the photo; second, a caption generation model creates a relevant caption that can be used as a base; and finally, a prompt is created using the detected dog's name and the generated caption. The prompt is then used to fine-tune a language model that creates a relevant caption based on the photo's content and the dog's characteristics.
 
 Once the caption is generated, the photo, along with the caption, can be automatically posted to Instagram. This automation simplifies the management of the Instagram account and ensures each post is accompanied by a personalized caption.
 
