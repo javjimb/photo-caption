@@ -1,4 +1,4 @@
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, pipeline
 import torch
 
 class CaptionRefiner:
@@ -19,15 +19,19 @@ class CaptionRefiner:
         """
 
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.device)
-        
+
         # Generate refined caption
         outputs = self.model.generate(
             inputs["input_ids"],
-            max_length=100,
+            max_length=300,
             num_return_sequences=1,
             no_repeat_ngram_size=2,
-            num_beams=5,
-            early_stopping=True
+            num_beams=8,
+            # early_stopping=True,
+            temperature=0.8,
+            top_k=50,
+            top_p=0.85,
+            repetition_penalty=1.2
         )
 
         refined_caption = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
